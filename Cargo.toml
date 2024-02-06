@@ -27,6 +27,8 @@ publish = false
 
 
 [dependencies]
+tokio = { version = "1.36.0", features = ["fs", "macros", "net", "io-util", "test-util", "signal", "rt-multi-thread", "parking_lot", "tracing"] }
+tracing = { version = "0.1.40", features = ["async-await"] }
 
 
 [dev-dependencies]
